@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>div로 움직이는 애니메이션</title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 200px;
+			background: red;
+			animation-name: ay;
+			animation-duration: 5s;
+			animation-iteration-count: 10;
+		}
+		@keyframes ay {
+			0% {
+				background: red;
+				margin-left: 0%;
+				margin-top: 0%;
+			}
+			25% {
+				background: yellow;
+				margin-left: 50%;
+				margin-top: 0%;
+			}
+			50% {
+				background: blue;
+				margin-left: 50%;
+				margin-top: 30%;
+			}
+			75% {
+				background: green;
+				margin-left: 0%;
+				margin-top: 30%;
+			}
+			100% {
+				background: red;
+				margin-left: 0%;
+				margin-top: 0%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
